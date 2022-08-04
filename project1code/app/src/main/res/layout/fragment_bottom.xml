@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".BottomFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:id="@+id/BotFragLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF4500"
+        android:orientation="vertical">
+
+        <TextClock
+            android:id="@+id/BotFragTextClock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:format12Hour="dd MMM yyyy hh:mm:ss a"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/BotFragImageViewWheel"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/wheeloftime" />
+
+        <ImageView
+            android:id="@+id/BotFragImageViewSeason"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/spring" />
+    </LinearLayout>
+
+</FrameLayout>

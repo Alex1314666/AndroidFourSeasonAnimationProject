@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/spring" android:duration="15000" />
+    <item android:drawable="@drawable/summer" android:duration="15000" />
+    <item android:drawable="@drawable/autumn" android:duration="15000" />
+    <item android:drawable="@drawable/winter" android:duration="15000" />
+</animation-list>
